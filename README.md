@@ -9,7 +9,7 @@ Hey！这里是灰尘！
 
 现在1.0，1.1，1.2版本的文件已经找不到了，只能从1.3开始更新源码了，非常抱歉QAQ
 
-定制版本体下载:
+1.3定制版本体下载:
 
 百度网盘链接:https://pan.baidu.com/s/12MhHk_W6_7mmQcARAC0X7g
 
@@ -19,6 +19,15 @@ Hey！这里是灰尘！
 
 提取码:yew6
 
+1.4定制版本体下载:
+
+百度网盘链接:https://pan.baidu.com/s/12MhHk_W6_7mmQcARAC0X7g
+
+提取码:a3tp
+
+天翼云盘链接:https://cloud.189.cn/t/ZNNnQfNVjeMz
+
+提取码:yj96
 
 更新日志
 
