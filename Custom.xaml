@@ -16,11 +16,13 @@
 <local:MyCard Title="常用网页(国内)" Margin="0,0,0,15">
     <StackPanel Margin="25,40,23,15">
         <StackPanel Orientation="Horizontal">
-            <local:MyButton Margin="0,0,20,2" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0" ColorType="Highlight"
+            <local:MyButton Margin="0,0,20,2" Width="103" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0" ColorType="Highlight"
                    Text="打开 MCBBS" Tag="链接-https://www.mcbbs.net/portal.php" ToolTip="单击以打开 我的世界中文论坛(MCBBS)！" />
-            <local:MyButton Margin="0,0,20,2" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0"
+            <local:MyButton Margin="0,0,20,2" Width="105" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0"
                    Text="打开 MC百科" Tag="链接-https://www.mcmod.cn/" ToolTip="单击以打开 MC百科！" />
-            <local:MyButton Margin="0,0,20,2" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0"
+            <local:MyButton Margin="0,0,20,2" Width="122" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0"
+                   Text="打开 CNUP论坛" Tag="链接-http://62.234.157.231/forum.php" ToolTip="单击以打开 CNUP工会专属论坛！" />
+			<local:MyButton Margin="0,0,20,2" Width="80" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0"
                    Text="赞助作者" Tag="链接-https://afdian.net/@LTCat" ToolTip="单击以打开 龙猫(PCL II原作者)的爱发电赞助链接！" />
         </StackPanel>
     </StackPanel>
@@ -36,7 +38,17 @@
                    Text="打开 Forge官网" Tag="链接-https://files.minecraftforge.net/" ToolTip="单击以打开 Minecraft Forge官网！" />
             <local:MyButton Margin="0,0,20,2" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0"
                    Text="打开 OptiFine官网" Tag="链接-https://optifine.net/downloads" ToolTip="单击以打开 OptiFine官网！" />
-        </StackPanel>
+            </StackPanel>
+    </StackPanel>
+	<StackPanel Margin="25,90,23,15">
+        <StackPanel Orientation="Horizontal">
+			<local:MyButton Margin="0,0,20,2" Width="130" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0" ColorType="Highlight"
+                   Text="打开 Fabric官网" Tag="链接-https://fabricmc.net/" ToolTip="单击以打开 Fabric官网！" />
+            <local:MyButton Margin="0,0,20,2" Width="130" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0"
+                   Text="打开 Spigot官网" Tag="链接-https://www.spigotmc.org/" ToolTip="单击以打开 Spigot官网！" />
+            <local:MyButton Margin="0,0,20,2" Width="150" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0"
+                   Text="打开 MC Forum官网" Tag="链接-https://www.minecraftforum.net/" ToolTip="单击以打开 Minecraft Forum官网！" />
+		 </StackPanel>
     </StackPanel>
 </local:MyCard>
 
@@ -55,21 +67,25 @@
 </local:MyCard>
 
 
-<local:MyCard Title="1.16专区(左Forge,右Fabric)" Margin="0,0,0,15">
+<local:MyCard Title="1.16专区" Margin="0,0,0,15">
     <StackPanel Margin="25,40,23,15">
         <StackPanel Orientation="Horizontal">
-			<local:MyButton Margin="0,0,20,2" Width="100" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0"
-				Text="启动 1.16.1" Tag="启动-1.16.1(Forge)" ToolTip="单击以启动 Minecraft 1.16.1(Forge版)！" />
-			<local:MyButton Margin="0,0,20,2" Width="100" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0"
-				Text="启动 1.16.2" Tag="启动-1.16.2(Forge)" ToolTip="单击以启动 Minecraft 1.16.2(Forge版)！" />
-			<local:MyButton Margin="0,0,20,2" Width="100" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0"
-				Text="启动 1.16.1" Tag="启动-1.16.1(Fabric)" ToolTip="单击以启动 Minecraft 1.16.1(Fabric版)！" />
-			<local:MyButton Margin="0,0,20,2" Width="100" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0"
-				Text="启动 1.16.2" Tag="启动-1.16.2(Fabric)" ToolTip="单击以启动 Minecraft 1.16.2(Fabric版)！" />
-		</StackPanel>
+            <local:MyButton Margin="0,0,20,2" Width="200" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0" ColorType="Highlight"
+                   Text="启动 1.16.1(Forge版)" Tag="启动-1.16.1(Forge)" ToolTip="单击以启动 Minecraft 1.16.1(Forge)！" />
+			<local:MyButton Margin="0,0,20,2" Width="200" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0" ColorType="Highlight"
+                   Text="启动 1.16.1(Fabric版)" Tag="启动-1.16.1(Fabric)" ToolTip="单击以启动 Minecraft 1.16.1(Fabric)！" />
+            </StackPanel>
+    </StackPanel>
+	
+	<StackPanel Margin="25,90,23,15">
+        <StackPanel Orientation="Horizontal">
+			<local:MyButton Margin="0,0,20,2" Width="200" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0" ColorType="Highlight"
+                   Text="启动 1.16.2(Forge版)" Tag="启动-1.16.2(Forge)" ToolTip="单击以启动 Minecraft 1.16.2(Forge)！" />
+			<local:MyButton Margin="0,0,20,2" Width="200" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0" ColorType="Highlight"
+                   Text="启动 1.16.2(Fabric版)" Tag="启动-1.16.2(Fabric)" ToolTip="单击以启动 Minecraft 1.16.2(Fabric)！" />
+		 </StackPanel>
     </StackPanel>
 </local:MyCard>
-
 
 <local:MyCard Title="其他" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
     <StackPanel Margin="25,40,23,15">
@@ -84,12 +100,27 @@
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="灰尘创造服线路(1.16.1)" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+<local:MyCard Title="常用服务器线路" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
     <StackPanel Margin="25,40,23,15">
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,2"
+                   Text="Hypixel: mc.hypixel.net" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,2"
+                   Text="2B2T: 2b2t.org" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,2"
+                   Text="The Hive: play.hivemc.com" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,2"
+                   Text="CubeCraft: play.cubecraft.net" />
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="灰尘mod生存服线路(1.12.2)" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+    <StackPanel Margin="25,40,23,15">
+		<TextBlock TextWrapping="Wrap" Margin="0,0,0,2" Foreground="#FF21778C" Background="#5F8CEAD4"
+                   Text="Mod包下载:https://cloud.189.cn/t/RRZjim6nQVnm" />
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,2"
                    Text="镇江电信: 222.186.174.9:50532" />
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,2"
-                   Text="枣庄多线: 43.249.193.55:50532" />
+                   Text="枣庄多线: 43.249.192.24:50532" />
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,2"
                    Text="宿迁双线: 103.205.254.39:63732" />
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,2"
@@ -99,12 +130,12 @@
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="灰尘观赏服线路(1.8-1.16)" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+<local:MyCard Title="灰尘创造服线路(1.16.2)(暂时关闭)" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
     <StackPanel Margin="25,40,23,15">
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,2"
                    Text="镇江电信: 222.186.174.9:58265" />
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,2"
-                   Text="枣庄多线: 43.249.193.55:58265" />
+                   Text="枣庄多线: 43.249.192.24:58265" />
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,2"
                    Text="宿迁双线: 103.205.254.39:58265" />
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,2"
@@ -118,6 +149,8 @@
     <StackPanel Margin="25,40,23,15">
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,2"
                    Text="asbjdj: 提供GoLink检测/下载程序" />
+		<TextBlock TextWrapping="Wrap" Margin="0,0,0,2"
+                   Text="YIBO_YUNTIAN: 上报bug反馈" />
     </StackPanel>
 </local:MyCard>
 

@@ -29,7 +29,7 @@ Hey！这里是灰尘！
 
 提取码:yj96
 
-1.4定制版本体下载:
+2.0定制版本体下载:
 
 百度网盘链接:https://pan.baidu.com/s/1Bm8ax4LUK7QRFfDGcpeLmQ
 
